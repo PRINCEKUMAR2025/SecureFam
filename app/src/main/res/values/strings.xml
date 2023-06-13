@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecureFam</string>
+    <string name="googleapi">AIzaSyAZWXbn9dgRULAwZrauIqKfCAqLTGiQj5w</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
