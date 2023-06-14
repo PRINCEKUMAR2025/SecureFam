@@ -8,12 +8,11 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageViewworld"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/map" />
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="330dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="194dp"
+        android:src="@drawable/globe" />
 
     <Button
         android:id="@+id/btnFamily"
@@ -75,11 +74,17 @@
         android:background="@drawable/buttons"
         android:text="Login Member 5" />
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dancinggif" />
+
+
     <TextView
         android:id="@+id/contactbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="50dp"
         android:clickable="true"
         android:gravity="center_horizontal"
         android:text="Contact Us :)"
